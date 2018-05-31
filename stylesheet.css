@@ -1,26 +1,22 @@
 h1{
-font-size: 48px;
+font-size: 64px;
 }
 
-
-ul {
+.list-item {
     list-style-type: none;
-    margin: 100px;
+    margin: 0px;
     padding: 0;
     overflow: hidden;
     background-color: #2D3A3D;
-
 	}
-
 
 li {
     float: left;
     border-right:5px solid #bbb;
-}
+	font-size: 24px;
+	}
 
-
-
-li a {
+.list li a {
     display: block;
     color: white;
     text-align: center;
@@ -28,8 +24,18 @@ li a {
     text-decoration: none;
 }
 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+	background-color: rbg(255, 121, 117);
+}
+
 .active {
     background-color: #2D3A3D;
+	background-color: rbg(255, 121, 117);
 }
 
 .grid {
@@ -43,9 +49,9 @@ li a {
 }
 
 .box {
-  background-color: beige;
+  background-color: rbg(255, 121, 117);
   color: black;
-border-radius: 5px;
+  border-radius: 5px;
 }
 
 
@@ -54,14 +60,59 @@ border-radius: 5px;
   grid-column-end: span 2;
   grid-row-start: 1;
   grid-row-end: 2;
-}
+  }
 
 .b {
   grid-column-start: 3;
   grid-column-end: span 4;
   grid-row-start: 1;
   grid-row-end: 2;
+  }
+  
+  .c {
+	background-color: rbg(255, 255, 255);
+  }
+  
+  .list{
+  font-size: 24px;
+	}
+	
+	.list2 div{
+	display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 0 12px 0 16px;
+    text-decoration: none;
+	list-style-type: none;
+	}
+	
+	p{
+	font-size: 24px;
+	}
+	
+	.c {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  }
+  
+  ul {
+  list-style-type: none;
 }
 
+.chart div {
+height: 50%;
+width: 50%;
+}
+ 
+p2{
+ margin-right: 50px;
+ margin-left: 50px;
+}
 
-
+h3{
+margin: 0px, 
+}
+  
+ 
